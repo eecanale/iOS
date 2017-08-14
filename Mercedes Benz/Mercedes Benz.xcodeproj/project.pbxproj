@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D46CBD4B1F422D810029DA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBD4A1F422D810029DA9A /* AppDelegate.swift */; };
+		D46CBD4D1F422D810029DA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBD4C1F422D810029DA9A /* ViewController.swift */; };
+		D46CBD501F422D810029DA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46CBD4E1F422D810029DA9A /* Main.storyboard */; };
+		D46CBD521F422D810029DA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46CBD511F422D810029DA9A /* Assets.xcassets */; };
+		D46CBD551F422D810029DA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46CBD531F422D810029DA9A /* LaunchScreen.storyboard */; };
+		D46CBD601F422D810029DA9A /* Mercedes_BenzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBD5F1F422D810029DA9A /* Mercedes_BenzTests.swift */; };
+		D46CBD6B1F422D810029DA9A /* Mercedes_BenzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBD6A1F422D810029DA9A /* Mercedes_BenzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D46CBD5C1F422D810029DA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46CBD3F1F422D810029DA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46CBD461F422D810029DA9A;
+			remoteInfo = "Mercedes Benz";
+		};
+		D46CBD671F422D810029DA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46CBD3F1F422D810029DA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46CBD461F422D810029DA9A;
+			remoteInfo = "Mercedes Benz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D46CBD471F422D810029DA9A /* Mercedes Benz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercedes Benz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46CBD4A1F422D810029DA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46CBD4C1F422D810029DA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D46CBD4F1F422D810029DA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46CBD511F422D810029DA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46CBD541F422D810029DA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46CBD561F422D810029DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46CBD5B1F422D810029DA9A /* Mercedes BenzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercedes BenzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46CBD5F1F422D810029DA9A /* Mercedes_BenzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercedes_BenzTests.swift; sourceTree = "<group>"; };
+		D46CBD611F422D810029DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46CBD661F422D810029DA9A /* Mercedes BenzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercedes BenzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46CBD6A1F422D810029DA9A /* Mercedes_BenzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercedes_BenzUITests.swift; sourceTree = "<group>"; };
+		D46CBD6C1F422D810029DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46CBD441F422D810029DA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46CBD581F422D810029DA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46CBD631F422D810029DA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D46CBD3E1F422D810029DA9A = {
+			isa = PBXGroup;
+			children = (
+				D46CBD491F422D810029DA9A /* Mercedes Benz */,
+				D46CBD5E1F422D810029DA9A /* Mercedes BenzTests */,
+				D46CBD691F422D810029DA9A /* Mercedes BenzUITests */,
+				D46CBD481F422D810029DA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D46CBD481F422D810029DA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46CBD471F422D810029DA9A /* Mercedes Benz.app */,
+				D46CBD5B1F422D810029DA9A /* Mercedes BenzTests.xctest */,
+				D46CBD661F422D810029DA9A /* Mercedes BenzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46CBD491F422D810029DA9A /* Mercedes Benz */ = {
+			isa = PBXGroup;
+			children = (
+				D46CBD4A1F422D810029DA9A /* AppDelegate.swift */,
+				D46CBD4C1F422D810029DA9A /* ViewController.swift */,
+				D46CBD4E1F422D810029DA9A /* Main.storyboard */,
+				D46CBD511F422D810029DA9A /* Assets.xcassets */,
+				D46CBD531F422D810029DA9A /* LaunchScreen.storyboard */,
+				D46CBD561F422D810029DA9A /* Info.plist */,
+			);
+			path = "Mercedes Benz";
+			sourceTree = "<group>";
+		};
+		D46CBD5E1F422D810029DA9A /* Mercedes BenzTests */ = {
+			isa = PBXGroup;
+			children = (
+				D46CBD5F1F422D810029DA9A /* Mercedes_BenzTests.swift */,
+				D46CBD611F422D810029DA9A /* Info.plist */,
+			);
+			path = "Mercedes BenzTests";
+			sourceTree = "<group>";
+		};
+		D46CBD691F422D810029DA9A /* Mercedes BenzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D46CBD6A1F422D810029DA9A /* Mercedes_BenzUITests.swift */,
+				D46CBD6C1F422D810029DA9A /* Info.plist */,
+			);
+			path = "Mercedes BenzUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46CBD461F422D810029DA9A /* Mercedes Benz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46CBD6F1F422D810029DA9A /* Build configuration list for PBXNativeTarget "Mercedes Benz" */;
+			buildPhases = (
+				D46CBD431F422D810029DA9A /* Sources */,
+				D46CBD441F422D810029DA9A /* Frameworks */,
+				D46CBD451F422D810029DA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mercedes Benz";
+			productName = "Mercedes Benz";
+			productReference = D46CBD471F422D810029DA9A /* Mercedes Benz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D46CBD5A1F422D810029DA9A /* Mercedes BenzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46CBD721F422D810029DA9A /* Build configuration list for PBXNativeTarget "Mercedes BenzTests" */;
+			buildPhases = (
+				D46CBD571F422D810029DA9A /* Sources */,
+				D46CBD581F422D810029DA9A /* Frameworks */,
+				D46CBD591F422D810029DA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46CBD5D1F422D810029DA9A /* PBXTargetDependency */,
+			);
+			name = "Mercedes BenzTests";
+			productName = "Mercedes BenzTests";
+			productReference = D46CBD5B1F422D810029DA9A /* Mercedes BenzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D46CBD651F422D810029DA9A /* Mercedes BenzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46CBD751F422D810029DA9A /* Build configuration list for PBXNativeTarget "Mercedes BenzUITests" */;
+			buildPhases = (
+				D46CBD621F422D810029DA9A /* Sources */,
+				D46CBD631F422D810029DA9A /* Frameworks */,
+				D46CBD641F422D810029DA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46CBD681F422D810029DA9A /* PBXTargetDependency */,
+			);
+			name = "Mercedes BenzUITests";
+			productName = "Mercedes BenzUITests";
+			productReference = D46CBD661F422D810029DA9A /* Mercedes BenzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46CBD3F1F422D810029DA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Caliente;
+				TargetAttributes = {
+					D46CBD461F422D810029DA9A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2DQNY384WX;
+						ProvisioningStyle = Automatic;
+					};
+					D46CBD5A1F422D810029DA9A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2DQNY384WX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D46CBD461F422D810029DA9A;
+					};
+					D46CBD651F422D810029DA9A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2DQNY384WX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D46CBD461F422D810029DA9A;
+					};
+				};
+			};
+			buildConfigurationList = D46CBD421F422D810029DA9A /* Build configuration list for PBXProject "Mercedes Benz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46CBD3E1F422D810029DA9A;
+			productRefGroup = D46CBD481F422D810029DA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46CBD461F422D810029DA9A /* Mercedes Benz */,
+				D46CBD5A1F422D810029DA9A /* Mercedes BenzTests */,
+				D46CBD651F422D810029DA9A /* Mercedes BenzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46CBD451F422D810029DA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46CBD551F422D810029DA9A /* LaunchScreen.storyboard in Resources */,
+				D46CBD521F422D810029DA9A /* Assets.xcassets in Resources */,
+				D46CBD501F422D810029DA9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46CBD591F422D810029DA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46CBD641F422D810029DA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46CBD431F422D810029DA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46CBD4D1F422D810029DA9A /* ViewController.swift in Sources */,
+				D46CBD4B1F422D810029DA9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46CBD571F422D810029DA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46CBD601F422D810029DA9A /* Mercedes_BenzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46CBD621F422D810029DA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46CBD6B1F422D810029DA9A /* Mercedes_BenzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D46CBD5D1F422D810029DA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46CBD461F422D810029DA9A /* Mercedes Benz */;
+			targetProxy = D46CBD5C1F422D810029DA9A /* PBXContainerItemProxy */;
+		};
+		D46CBD681F422D810029DA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46CBD461F422D810029DA9A /* Mercedes Benz */;
+			targetProxy = D46CBD671F422D810029DA9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D46CBD4E1F422D810029DA9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46CBD4F1F422D810029DA9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46CBD531F422D810029DA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46CBD541F422D810029DA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46CBD6D1F422D810029DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46CBD6E1F422D810029DA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46CBD701F422D810029DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2DQNY384WX;
+				INFOPLIST_FILE = "Mercedes Benz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliente.Mercedes-Benz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D46CBD711F422D810029DA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2DQNY384WX;
+				INFOPLIST_FILE = "Mercedes Benz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliente.Mercedes-Benz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D46CBD731F422D810029DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2DQNY384WX;
+				INFOPLIST_FILE = "Mercedes BenzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliente.Mercedes-BenzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercedes Benz.app/Mercedes Benz";
+			};
+			name = Debug;
+		};
+		D46CBD741F422D810029DA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2DQNY384WX;
+				INFOPLIST_FILE = "Mercedes BenzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliente.Mercedes-BenzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercedes Benz.app/Mercedes Benz";
+			};
+			name = Release;
+		};
+		D46CBD761F422D810029DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2DQNY384WX;
+				INFOPLIST_FILE = "Mercedes BenzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliente.Mercedes-BenzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mercedes Benz";
+			};
+			name = Debug;
+		};
+		D46CBD771F422D810029DA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2DQNY384WX;
+				INFOPLIST_FILE = "Mercedes BenzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliente.Mercedes-BenzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mercedes Benz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46CBD421F422D810029DA9A /* Build configuration list for PBXProject "Mercedes Benz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46CBD6D1F422D810029DA9A /* Debug */,
+				D46CBD6E1F422D810029DA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46CBD6F1F422D810029DA9A /* Build configuration list for PBXNativeTarget "Mercedes Benz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46CBD701F422D810029DA9A /* Debug */,
+				D46CBD711F422D810029DA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D46CBD721F422D810029DA9A /* Build configuration list for PBXNativeTarget "Mercedes BenzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46CBD731F422D810029DA9A /* Debug */,
+				D46CBD741F422D810029DA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D46CBD751F422D810029DA9A /* Build configuration list for PBXNativeTarget "Mercedes BenzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46CBD761F422D810029DA9A /* Debug */,
+				D46CBD771F422D810029DA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46CBD3F1F422D810029DA9A /* Project object */;
+}
