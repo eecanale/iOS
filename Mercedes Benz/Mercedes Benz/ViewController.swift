@@ -20,6 +20,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var MarcaLabel: UILabel!
+    
+    @IBAction func marca(_ sender: UIButton) {
+        MarcaLabel.text = "Mercedes Benz"
+    }
 
+    @IBOutlet weak var ColorLabel: UILabel!
+    
+    @IBAction func Color(_ sender: Any) {
+        ColorLabel.text = "Gris"
+    }
+    
+    @IBOutlet weak var ImagenImage: UIImageView!
+    
+    
+    @IBAction func Imagen(_ sender: Any) {
+        ImagenImage.image = UIImage(named: "/Users/eleazarcanale/git/IOS/Mercedes Benz/Mercedes Benz/Unknown-1.jpeg")
+    }
 }
 
