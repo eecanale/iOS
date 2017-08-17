@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBE3C1F44DCAA0029DA9A"
-               BuildableName = "MapView.app"
-               BlueprintName = "MapView"
-               ReferencedContainer = "container:MapView.xcodeproj">
+               BlueprintIdentifier = "D46CBE761F4502000029DA9A"
+               BuildableName = "Dinamics.app"
+               BlueprintName = "Dinamics"
+               ReferencedContainer = "container:Dinamics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBE501F44DCAA0029DA9A"
-               BuildableName = "MapViewTests.xctest"
-               BlueprintName = "MapViewTests"
-               ReferencedContainer = "container:MapView.xcodeproj">
+               BlueprintIdentifier = "D46CBE8A1F4502000029DA9A"
+               BuildableName = "DinamicsTests.xctest"
+               BlueprintName = "DinamicsTests"
+               ReferencedContainer = "container:Dinamics.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBE5B1F44DCAA0029DA9A"
-               BuildableName = "MapViewUITests.xctest"
-               BlueprintName = "MapViewUITests"
-               ReferencedContainer = "container:MapView.xcodeproj">
+               BlueprintIdentifier = "D46CBE951F4502000029DA9A"
+               BuildableName = "DinamicsUITests.xctest"
+               BlueprintName = "DinamicsUITests"
+               ReferencedContainer = "container:Dinamics.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBE3C1F44DCAA0029DA9A"
-            BuildableName = "MapView.app"
-            BlueprintName = "MapView"
-            ReferencedContainer = "container:MapView.xcodeproj">
+            BlueprintIdentifier = "D46CBE761F4502000029DA9A"
+            BuildableName = "Dinamics.app"
+            BlueprintName = "Dinamics"
+            ReferencedContainer = "container:Dinamics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBE3C1F44DCAA0029DA9A"
-            BuildableName = "MapView.app"
-            BlueprintName = "MapView"
-            ReferencedContainer = "container:MapView.xcodeproj">
+            BlueprintIdentifier = "D46CBE761F4502000029DA9A"
+            BuildableName = "Dinamics.app"
+            BlueprintName = "Dinamics"
+            ReferencedContainer = "container:Dinamics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBE3C1F44DCAA0029DA9A"
-            BuildableName = "MapView.app"
-            BlueprintName = "MapView"
-            ReferencedContainer = "container:MapView.xcodeproj">
+            BlueprintIdentifier = "D46CBE761F4502000029DA9A"
+            BuildableName = "Dinamics.app"
+            BlueprintName = "Dinamics"
+            ReferencedContainer = "container:Dinamics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
