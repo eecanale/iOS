@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBEB21F4516BF0029DA9A"
-               BuildableName = "Cronometro.app"
-               BlueprintName = "Cronometro"
-               ReferencedContainer = "container:Cronometro.xcodeproj">
+               BlueprintIdentifier = "D46CBEEC1F45F7DB0029DA9A"
+               BuildableName = "App4ClaseGuardaPalabra.app"
+               BlueprintName = "App4ClaseGuardaPalabra"
+               ReferencedContainer = "container:App4ClaseGuardaPalabra.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBEC61F4516BF0029DA9A"
-               BuildableName = "CronometroTests.xctest"
-               BlueprintName = "CronometroTests"
-               ReferencedContainer = "container:Cronometro.xcodeproj">
+               BlueprintIdentifier = "D46CBF001F45F7DB0029DA9A"
+               BuildableName = "App4ClaseGuardaPalabraTests.xctest"
+               BlueprintName = "App4ClaseGuardaPalabraTests"
+               ReferencedContainer = "container:App4ClaseGuardaPalabra.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBED11F4516BF0029DA9A"
-               BuildableName = "CronometroUITests.xctest"
-               BlueprintName = "CronometroUITests"
-               ReferencedContainer = "container:Cronometro.xcodeproj">
+               BlueprintIdentifier = "D46CBF0B1F45F7DB0029DA9A"
+               BuildableName = "App4ClaseGuardaPalabraUITests.xctest"
+               BlueprintName = "App4ClaseGuardaPalabraUITests"
+               ReferencedContainer = "container:App4ClaseGuardaPalabra.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBEB21F4516BF0029DA9A"
-            BuildableName = "Cronometro.app"
-            BlueprintName = "Cronometro"
-            ReferencedContainer = "container:Cronometro.xcodeproj">
+            BlueprintIdentifier = "D46CBEEC1F45F7DB0029DA9A"
+            BuildableName = "App4ClaseGuardaPalabra.app"
+            BlueprintName = "App4ClaseGuardaPalabra"
+            ReferencedContainer = "container:App4ClaseGuardaPalabra.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBEB21F4516BF0029DA9A"
-            BuildableName = "Cronometro.app"
-            BlueprintName = "Cronometro"
-            ReferencedContainer = "container:Cronometro.xcodeproj">
+            BlueprintIdentifier = "D46CBEEC1F45F7DB0029DA9A"
+            BuildableName = "App4ClaseGuardaPalabra.app"
+            BlueprintName = "App4ClaseGuardaPalabra"
+            ReferencedContainer = "container:App4ClaseGuardaPalabra.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBEB21F4516BF0029DA9A"
-            BuildableName = "Cronometro.app"
-            BlueprintName = "Cronometro"
-            ReferencedContainer = "container:Cronometro.xcodeproj">
+            BlueprintIdentifier = "D46CBEEC1F45F7DB0029DA9A"
+            BuildableName = "App4ClaseGuardaPalabra.app"
+            BlueprintName = "App4ClaseGuardaPalabra"
+            ReferencedContainer = "container:App4ClaseGuardaPalabra.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

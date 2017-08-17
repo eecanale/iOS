@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Iba-FO-hLh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="93G-QF-yFT">
+            <objects>
+                <viewController id="tDt-G2-0ge" customClass="ViewController" customModule="App4ClaseGuardaPalabra" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eSY-LC-HSt"/>
+                        <viewControllerLayoutGuide type="bottom" id="XsI-e2-nGj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H8q-OG-Qby">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3dW-LI-RJ7">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="edit" id="SEA-f9-GF9">
+                            <connections>
+                                <segue destination="8xm-mW-5cr" kind="show" id="Zl5-G2-lWs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w5p-9u-3Ym" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1633" y="81"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="Naj-M8-iHP">
+            <objects>
+                <tableViewController id="8xm-mW-5cr" customClass="TableViewController" customModule="App4ClaseGuardaPalabra" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2Ux-QT-pei">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda" id="fPX-s0-7bo">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fPX-s0-7bo" id="Ne6-gP-0z8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8xm-mW-5cr" id="UEy-fE-enc"/>
+                            <outlet property="delegate" destination="8xm-mW-5cr" id="hkk-yk-vNX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="Fe4-u7-Sex">
+                        <barButtonItem key="backBarButtonItem" title="Regresar" id="dCD-Lb-DnM"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="IKO-lq-XDr">
+                            <connections>
+                                <action selector="agregarPalabra:" destination="8xm-mW-5cr" id="N55-fA-Fhw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kMW-Kv-Z6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2417" y="81"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9HF-Vf-h18">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Iba-FO-hLh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J4D-0j-gsB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tDt-G2-0ge" kind="relationship" relationship="rootViewController" id="bBd-Ok-lpM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPA-Wv-9TB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640.79999999999995" y="81.409295352323838"/>
+        </scene>
+    </scenes>
+</document>
