@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBF621F4621BF0029DA9A"
-               BuildableName = "CicloDeVida.app"
-               BlueprintName = "CicloDeVida"
-               ReferencedContainer = "container:CicloDeVida.xcodeproj">
+               BlueprintIdentifier = "D46CBFA91F46511C0029DA9A"
+               BuildableName = "AppCicloVida.app"
+               BlueprintName = "AppCicloVida"
+               ReferencedContainer = "container:AppCicloVida.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBF781F4621BF0029DA9A"
-               BuildableName = "CicloDeVidaTests.xctest"
-               BlueprintName = "CicloDeVidaTests"
-               ReferencedContainer = "container:CicloDeVida.xcodeproj">
+               BlueprintIdentifier = "D46CBFBD1F46511C0029DA9A"
+               BuildableName = "AppCicloVidaTests.xctest"
+               BlueprintName = "AppCicloVidaTests"
+               ReferencedContainer = "container:AppCicloVida.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBF831F4621BF0029DA9A"
-               BuildableName = "CicloDeVidaUITests.xctest"
-               BlueprintName = "CicloDeVidaUITests"
-               ReferencedContainer = "container:CicloDeVida.xcodeproj">
+               BlueprintIdentifier = "D46CBFC81F46511C0029DA9A"
+               BuildableName = "AppCicloVidaUITests.xctest"
+               BlueprintName = "AppCicloVidaUITests"
+               ReferencedContainer = "container:AppCicloVida.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBF621F4621BF0029DA9A"
-            BuildableName = "CicloDeVida.app"
-            BlueprintName = "CicloDeVida"
-            ReferencedContainer = "container:CicloDeVida.xcodeproj">
+            BlueprintIdentifier = "D46CBFA91F46511C0029DA9A"
+            BuildableName = "AppCicloVida.app"
+            BlueprintName = "AppCicloVida"
+            ReferencedContainer = "container:AppCicloVida.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBF621F4621BF0029DA9A"
-            BuildableName = "CicloDeVida.app"
-            BlueprintName = "CicloDeVida"
-            ReferencedContainer = "container:CicloDeVida.xcodeproj">
+            BlueprintIdentifier = "D46CBFA91F46511C0029DA9A"
+            BuildableName = "AppCicloVida.app"
+            BlueprintName = "AppCicloVida"
+            ReferencedContainer = "container:AppCicloVida.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBF621F4621BF0029DA9A"
-            BuildableName = "CicloDeVida.app"
-            BlueprintName = "CicloDeVida"
-            ReferencedContainer = "container:CicloDeVida.xcodeproj">
+            BlueprintIdentifier = "D46CBFA91F46511C0029DA9A"
+            BuildableName = "AppCicloVida.app"
+            BlueprintName = "AppCicloVida"
+            ReferencedContainer = "container:AppCicloVida.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

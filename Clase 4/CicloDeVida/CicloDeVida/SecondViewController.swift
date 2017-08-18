@@ -20,6 +20,25 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var var1: UITextField!
+    @IBOutlet weak var var2: UITextField!
+    @IBOutlet weak var result: UITextField!
+    
+    @IBAction func Suma(_ sender: UIButton) {
+        result.text = String(Int(var1.text!)! + Int(var2.text!)!)
+    }
+    
+    @IBAction func Resta(_ sender: UIButton) {
+        result.text = String(Int(var1.text!)! - Int(var2.text!)!)
+    }
+    
+    @IBAction func Multi(_ sender: UIButton) {
+        result.text = String(Int(var1.text!)! * Int(var2.text!)!)
+    }
+    
+    @IBAction func Div(_ sender: UIButton) {
+        result.text = String(Int(var1.text!)! / Int(var2.text!)!)
+    }
 
 }
 

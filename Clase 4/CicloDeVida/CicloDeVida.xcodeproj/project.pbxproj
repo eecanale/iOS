@@ -15,6 +15,10 @@
 		D46CBF731F4621BF0029DA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46CBF711F4621BF0029DA9A /* LaunchScreen.storyboard */; };
 		D46CBF7E1F4621BF0029DA9A /* CicloDeVidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBF7D1F4621BF0029DA9A /* CicloDeVidaTests.swift */; };
 		D46CBF891F4621BF0029DA9A /* CicloDeVidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBF881F4621BF0029DA9A /* CicloDeVidaUITests.swift */; };
+		D46CBF971F46239E0029DA9A /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBF961F46239E0029DA9A /* ListaTableViewController.swift */; };
+		D46CBF9B1F462D830029DA9A /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D46CBF9A1F462D830029DA9A /* Icon-App-76x76@2x.png */; };
+		D46CBF9D1F46332B0029DA9A /* MusicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBF9C1F46332B0029DA9A /* MusicaViewController.swift */; };
+		D46CBFA01F4650270029DA9A /* SampleAudio_0.5mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D46CBF9F1F4650270029DA9A /* SampleAudio_0.5mb.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D46CBF841F4621BF0029DA9A /* CicloDeVidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CicloDeVidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46CBF881F4621BF0029DA9A /* CicloDeVidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CicloDeVidaUITests.swift; sourceTree = "<group>"; };
 		D46CBF8A1F4621BF0029DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46CBF961F46239E0029DA9A /* ListaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		D46CBF9A1F462D830029DA9A /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		D46CBF9C1F46332B0029DA9A /* MusicaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicaViewController.swift; sourceTree = "<group>"; };
+		D46CBF9F1F4650270029DA9A /* SampleAudio_0.5mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SampleAudio_0.5mb.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		D46CBF651F4621BF0029DA9A /* CicloDeVida */ = {
 			isa = PBXGroup;
 			children = (
+				D46CBF9A1F462D830029DA9A /* Icon-App-76x76@2x.png */,
 				D46CBF661F4621BF0029DA9A /* AppDelegate.swift */,
 				D46CBF681F4621BF0029DA9A /* FirstViewController.swift */,
 				D46CBF6A1F4621BF0029DA9A /* SecondViewController.swift */,
 				D46CBF6C1F4621BF0029DA9A /* Main.storyboard */,
 				D46CBF6F1F4621BF0029DA9A /* Assets.xcassets */,
+				D46CBF9F1F4650270029DA9A /* SampleAudio_0.5mb.mp3 */,
 				D46CBF711F4621BF0029DA9A /* LaunchScreen.storyboard */,
 				D46CBF741F4621BF0029DA9A /* Info.plist */,
+				D46CBF961F46239E0029DA9A /* ListaTableViewController.swift */,
+				D46CBF9C1F46332B0029DA9A /* MusicaViewController.swift */,
 			);
 			path = CicloDeVida;
 			sourceTree = "<group>";
@@ -196,6 +208,7 @@
 				TargetAttributes = {
 					D46CBF621F4621BF0029DA9A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2DQNY384WX;
 						ProvisioningStyle = Automatic;
 					};
 					D46CBF781F4621BF0029DA9A = {
@@ -235,7 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46CBF9B1F462D830029DA9A /* Icon-App-76x76@2x.png in Resources */,
 				D46CBF731F4621BF0029DA9A /* LaunchScreen.storyboard in Resources */,
+				D46CBFA01F4650270029DA9A /* SampleAudio_0.5mb.mp3 in Resources */,
 				D46CBF701F4621BF0029DA9A /* Assets.xcassets in Resources */,
 				D46CBF6E1F4621BF0029DA9A /* Main.storyboard in Resources */,
 			);
@@ -262,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46CBF9D1F46332B0029DA9A /* MusicaViewController.swift in Sources */,
 				D46CBF6B1F4621BF0029DA9A /* SecondViewController.swift in Sources */,
+				D46CBF971F46239E0029DA9A /* ListaTableViewController.swift in Sources */,
 				D46CBF671F4621BF0029DA9A /* AppDelegate.swift in Sources */,
 				D46CBF691F4621BF0029DA9A /* FirstViewController.swift in Sources */,
 			);
@@ -418,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2DQNY384WX;
 				INFOPLIST_FILE = CicloDeVida/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caliente.CicloDeVida;
@@ -430,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2DQNY384WX;
 				INFOPLIST_FILE = CicloDeVida/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caliente.CicloDeVida;
