@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBFE51F4663AE0029DA9A"
-               BuildableName = "IOSLocalNotification.app"
-               BlueprintName = "IOSLocalNotification"
-               ReferencedContainer = "container:IOSLocalNotification.xcodeproj">
+               BlueprintIdentifier = "D46CC05B1F4752860029DA9A"
+               BuildableName = "Acelerometro.app"
+               BlueprintName = "Acelerometro"
+               ReferencedContainer = "container:Acelerometro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CBFF91F4663AE0029DA9A"
-               BuildableName = "IOSLocalNotificationTests.xctest"
-               BlueprintName = "IOSLocalNotificationTests"
-               ReferencedContainer = "container:IOSLocalNotification.xcodeproj">
+               BlueprintIdentifier = "D46CC06F1F4752860029DA9A"
+               BuildableName = "AcelerometroTests.xctest"
+               BlueprintName = "AcelerometroTests"
+               ReferencedContainer = "container:Acelerometro.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46CC0041F4663AE0029DA9A"
-               BuildableName = "IOSLocalNotificationUITests.xctest"
-               BlueprintName = "IOSLocalNotificationUITests"
-               ReferencedContainer = "container:IOSLocalNotification.xcodeproj">
+               BlueprintIdentifier = "D46CC07A1F4752860029DA9A"
+               BuildableName = "AcelerometroUITests.xctest"
+               BlueprintName = "AcelerometroUITests"
+               ReferencedContainer = "container:Acelerometro.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBFE51F4663AE0029DA9A"
-            BuildableName = "IOSLocalNotification.app"
-            BlueprintName = "IOSLocalNotification"
-            ReferencedContainer = "container:IOSLocalNotification.xcodeproj">
+            BlueprintIdentifier = "D46CC05B1F4752860029DA9A"
+            BuildableName = "Acelerometro.app"
+            BlueprintName = "Acelerometro"
+            ReferencedContainer = "container:Acelerometro.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBFE51F4663AE0029DA9A"
-            BuildableName = "IOSLocalNotification.app"
-            BlueprintName = "IOSLocalNotification"
-            ReferencedContainer = "container:IOSLocalNotification.xcodeproj">
+            BlueprintIdentifier = "D46CC05B1F4752860029DA9A"
+            BuildableName = "Acelerometro.app"
+            BlueprintName = "Acelerometro"
+            ReferencedContainer = "container:Acelerometro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46CBFE51F4663AE0029DA9A"
-            BuildableName = "IOSLocalNotification.app"
-            BlueprintName = "IOSLocalNotification"
-            ReferencedContainer = "container:IOSLocalNotification.xcodeproj">
+            BlueprintIdentifier = "D46CC05B1F4752860029DA9A"
+            BuildableName = "Acelerometro.app"
+            BlueprintName = "Acelerometro"
+            ReferencedContainer = "container:Acelerometro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

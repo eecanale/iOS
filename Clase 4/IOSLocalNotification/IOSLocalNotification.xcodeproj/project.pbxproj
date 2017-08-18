@@ -14,6 +14,7 @@
 		D46CBFF41F4663AE0029DA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46CBFF21F4663AE0029DA9A /* LaunchScreen.storyboard */; };
 		D46CBFFF1F4663AE0029DA9A /* IOSLocalNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CBFFE1F4663AE0029DA9A /* IOSLocalNotificationTests.swift */; };
 		D46CC00A1F4663AE0029DA9A /* IOSLocalNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CC0091F4663AE0029DA9A /* IOSLocalNotificationUITests.swift */; };
+		D46CC0181F466A5B0029DA9A /* appleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D46CC0171F466A5B0029DA9A /* appleLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D46CC0051F4663AE0029DA9A /* IOSLocalNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSLocalNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46CC0091F4663AE0029DA9A /* IOSLocalNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSLocalNotificationUITests.swift; sourceTree = "<group>"; };
 		D46CC00B1F4663AE0029DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46CC0171F466A5B0029DA9A /* appleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D46CBFE81F4663AE0029DA9A /* IOSLocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				D46CC0171F466A5B0029DA9A /* appleLogo.png */,
 				D46CBFE91F4663AE0029DA9A /* AppDelegate.swift */,
 				D46CBFEB1F4663AE0029DA9A /* ViewController.swift */,
 				D46CBFED1F4663AE0029DA9A /* Main.storyboard */,
@@ -238,6 +241,7 @@
 				D46CBFF41F4663AE0029DA9A /* LaunchScreen.storyboard in Resources */,
 				D46CBFF11F4663AE0029DA9A /* Assets.xcassets in Resources */,
 				D46CBFEF1F4663AE0029DA9A /* Main.storyboard in Resources */,
+				D46CC0181F466A5B0029DA9A /* appleLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
